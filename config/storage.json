@@ -4,13 +4,13 @@
     "ipfs_bin": "ipfs",
     "provider": "ipfs",
     "available_providers": ["ipfs"],
-    "host": "localhost",
+    "host": "121.196.203.34",
     "port": 5001
   },
   "development": {
     "enabled": true,
     "provider": "ipfs",
-    "host": "localhost",
+    "host": "121.196.203.34",
     "port": 5001
   }
 }

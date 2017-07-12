@@ -1,0 +1,7 @@
+Initializing daemon...
+Swarm listening on /ip4/127.0.0.1/tcp/4001
+Swarm listening on /ip4/192.168.3.39/tcp/4001
+Swarm listening on /ip6/::1/tcp/4001
+API server listening on /ip4/127.0.0.1/tcp/5001
+Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
+Daemon is ready

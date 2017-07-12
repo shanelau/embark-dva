@@ -56,5 +56,45 @@
       }
     },
     "name": "development"
+  },
+  "0x9a731e692ddba08a046ac5d98affb150480dd3db2d8724cc73b9befe74df5c97": {
+    "contracts": {
+      "0xf6e51c9cff96531376cb61f020855fc9a66aba1db6f8ae829e0659f3a84a3f18": {
+        "name": "SimpleStorage",
+        "address": "0xa373146f08e313899849966e43eb9dc8e86a9e7f"
+      }
+    },
+    "name": "development"
+  },
+  "0xbd1132dbd796f235eba612ece021e676cb9fa8db1df233a22aada929efd0f32e": {
+    "contracts": {
+      "0xf6e51c9cff96531376cb61f020855fc9a66aba1db6f8ae829e0659f3a84a3f18": {
+        "name": "SimpleStorage",
+        "address": "0xddb1c85a8cb1da65c661cf5e01da3886a3358409"
+      }
+    },
+    "name": "development"
+  },
+  "0x2d3c1a1383fe734800149af7c8319a49a4ef0bdf760b3947fdae2cb2ed620f3b": {
+    "contracts": {
+      "0xf6e51c9cff96531376cb61f020855fc9a66aba1db6f8ae829e0659f3a84a3f18": {
+        "name": "SimpleStorage",
+        "address": "0x8a969c45a3a0e83b92ebe8dd35f919ec8f381729"
+      }
+    },
+    "name": "development"
+  },
+  "0x2f7b95cd9a09681bc5598d3b4b8b6830615df630faee8255023b6d486f33b11a": {
+    "contracts": {
+      "0xf6e51c9cff96531376cb61f020855fc9a66aba1db6f8ae829e0659f3a84a3f18": {
+        "name": "SimpleStorage",
+        "address": "0xe34cee2dfc441ab1d6b5c6412d38958ca70c93aa"
+      },
+      "0x69d82dfcb97eee5bf4c1b55435279dc8a161a7312fd9c7cff6e620f49642bfc1": {
+        "name": "SimpleStorage",
+        "address": "0xe9d263a26661dd5a64080c696458541ecc482a64"
+      }
+    },
+    "name": "development"
   }
 }

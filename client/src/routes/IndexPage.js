@@ -3,24 +3,24 @@ import { connect } from 'dva';
 import styles from './IndexPage.css';
 
 function IndexPage() {
+  const _this = this;
   function handleFileUpload(e) {
     e.preventDefault();
     const file = [e.target];  // 为了符合 embark 的格式
     window.EmbarkJS.Storage.uploadFile(file).then((hash) => {
-      const url = window.EmbarkJS.Storage.getUrl(hash);
+      let url = window.EmbarkJS.Storage.getUrl(hash);
+      url = url.replace('http://localhost:8080', 'https://gateway.ipfs.io');
       console.log(url);
+
+      _this.setState({
+        img_src: url,
+      });
     });
   }
 
   return (
     <div className={styles.normal}>
-      <h1 className={styles.title}>Yay! Welcome to dva!</h1>
-      <div className={styles.welcome} />
-      <ul className={styles.list}>
-        <li>To get started, edit <code>src/index.js</code> and save to reload.</li>
-        <li><a href="https://github.com/dvajs/dva-docs/blob/master/v1/en-us/getting-started.md">Getting Started</a></li>
-      </ul>
-
+      {/* <image src={this.state.img_src} />*/}
       <input type="file" name="images" onChange={handleFileUpload} />
 
     </div>

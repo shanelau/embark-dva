@@ -7,7 +7,7 @@ contract SimpleStorage {
   }
 
   function set(uint x) {
-    storedData = x;
+    storedData = x * 100;
   }
   function get() constant returns (uint retVal) {
     return storedData;

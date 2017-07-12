@@ -1,12 +1,3 @@
-  // import React from 'react';
-  // import ReactDOM from 'react-dom';
-
-  // ReactDOM.render(
-  //   <h1>Hello, world!</h1>,
-
-
-  //   document.getElementById('root')
-  // );
 
 window.onload = function () {
 
@@ -19,14 +10,14 @@ window.onload = function () {
 
 
 //   // ipfs
-//   EmbarkJS.Storage.setProvider('ipfs', {
-//     server: '121.196.203.34', port: '5001' });
+  EmbarkJS.Storage.setProvider('ipfs', {
+    server: '121.196.203.34', port: '5001' });
 
-//   EmbarkJS.Storage.saveText("hello world").then(function (hash) {
-//     EmbarkJS.Storage.get(hash).then(function (content) {
-//       //console.log(content);
-//     });
-//   });
+  EmbarkJS.Storage.saveText("hello world").then(function (hash) {
+    EmbarkJS.Storage.get(hash).then(function (content) {
+      console.log(content);
+    });
+  });
 
 //   $("#upload").on('click', function (e) {
 //     EmbarkJS.Storage.uploadFile($("#image")).then(function(hash) {
@@ -34,6 +25,10 @@ window.onload = function () {
 //         console.log(url);
 //     });
 //   })
+EmbarkJS.Messages.setProvider('orbit', {server: 'localhost', port: 5001})
 
+  // EmbarkJS.Messages.setProvider('whisper', {server: '121.196.203.34', port: 5001})
+  EmbarkJS.Messages.listenTo({topic: ["topic1", "topic2"]}).then(function(message) { console.log("received: " + message); })
+  EmbarkJS.Messages.sendMessage({topic: "topic1", data: 'hello world'})
 
-// };
+};
