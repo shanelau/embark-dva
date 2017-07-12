@@ -1,7 +1,25 @@
 ## embark with react
 
-1. react framework is dva
-2. embark is env, `embark run` build the `app.js` file.
-3. check to client,
-4. import embark.js to index.html
-5. so you could happy to use embark in reactg
+### install
+```
+$ npm -g install embark
+
+# If you plan to use the simulator instead of a real ethereum node.
+$ npm -g install ethereumjs-testrpc
+```
+### get start
+1. eth test env: `embark simulator`
+2. ipfs
+    ```
+    nohup ipfs daemon --enable-pubsub-experiment > log/out.log 2> log/err.log &
+    ```
+3. create contract `app/contracts`
+4. build web3, contract env by `npm run embark_build`
+5. dev your client dir.
+
+
+
+### 技术点
+1. ipfs 文件系统
+2. 以太坊
+3. web3.js

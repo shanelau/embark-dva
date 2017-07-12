@@ -25,10 +25,10 @@ window.onload = function () {
 //         console.log(url);
 //     });
 //   })
-EmbarkJS.Messages.setProvider('orbit', {server: 'localhost', port: 5001})
+// EmbarkJS.Messages.setProvider('orbit', {server: 'localhost', port: 5001})
 
-  // EmbarkJS.Messages.setProvider('whisper', {server: '121.196.203.34', port: 5001})
-  EmbarkJS.Messages.listenTo({topic: ["topic1", "topic2"]}).then(function(message) { console.log("received: " + message); })
-  EmbarkJS.Messages.sendMessage({topic: "topic1", data: 'hello world'})
+//   // EmbarkJS.Messages.setProvider('whisper', {server: '121.196.203.34', port: 5001})
+//   EmbarkJS.Messages.listenTo({topic: ["topic1", "topic2"]}).then(function(message) { console.log("received: " + message); })
+//   EmbarkJS.Messages.sendMessage({topic: "topic1", data: 'hello world'})
 
 };

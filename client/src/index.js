@@ -24,18 +24,18 @@ window.onload = function () {
   SimpleStorage.get().then((value) => { console.log(value.toNumber()); });
 
   // ipfs
-  EmbarkJS.Storage.setProvider('ipfs', {
-    server: 'localhost', port: '5001' });
+  // EmbarkJS.Storage.setProvider('ipfs', {
+  //   server: '121.196.203.34', port: '5001' });
 
-  EmbarkJS.Storage.saveText('hello world').then((hash) => {
-    EmbarkJS.Storage.get(hash).then((content) => {
-      console.log(content);
-    });
-  });
+  // EmbarkJS.Storage.saveText('hello world').then((hash) => {
+  //   EmbarkJS.Storage.get(hash).then((content) => {
+  //     console.log(content);
+  //   });
+  // });
 
-  EmbarkJS.Messages.setProvider('whisper', { server: 'localhost', port: 5001 });
-  EmbarkJS.Messages.listenTo({ topic: ['topic1', 'topic2'] }).then((message) => { console.log(`received: ${message}`); });
-  EmbarkJS.Messages.sendMessage({ topic: 'topic1', data: 'hello world' });
+  // EmbarkJS.Messages.setProvider('whisper', { server: 'localhost', port: 5001 });
+  // EmbarkJS.Messages.listenTo({ topic: ['topic1', 'topic2'] }).then((message) => { console.log(`received: ${message}`); });
+  // EmbarkJS.Messages.sendMessage({ topic: 'topic1', data: 'hello world' });
 
 
 // 5. Start
