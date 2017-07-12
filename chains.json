@@ -1,0 +1,60 @@
+{
+  "0x9a584d1c7e91ec7a0486a658f9d8a5ea90b7f649633eb672b0cbbe3b653c3c0e": {
+    "contracts": {
+      "0x740db39ae75b75439001b119f553c05d2d2ff0b8071fd2bb355734735dda8ea0": {
+        "name": "SimpleStorage",
+        "address": "0x1920a3d18534f601661cc4d82948e7a81505a458"
+      },
+      "0xf6e51c9cff96531376cb61f020855fc9a66aba1db6f8ae829e0659f3a84a3f18": {
+        "name": "SimpleStorage",
+        "address": "0x1de67dbd63f1723e8e7bd222dcc2cb2da4137f13"
+      }
+    },
+    "name": "development"
+  },
+  "0xef70099023b20ef8d510ec56fd1ce78b7de01cae118c9acfd3dd7e6ac2d2269d": {
+    "contracts": {
+      "0xf6e51c9cff96531376cb61f020855fc9a66aba1db6f8ae829e0659f3a84a3f18": {
+        "name": "SimpleStorage",
+        "address": "0xdcfe62dd7e702acac5cccf825ed7c2d884670a73"
+      }
+    },
+    "name": "development"
+  },
+  "0x2b2509fc69ff9ef97309247dceff1ee50cba7e0250e292b4d36bf8b50b374aaa": {
+    "contracts": {
+      "0xf6e51c9cff96531376cb61f020855fc9a66aba1db6f8ae829e0659f3a84a3f18": {
+        "name": "SimpleStorage",
+        "address": "0xa3d040f56c90a14f6b5caa11df7aa9d8d4b0c025"
+      }
+    },
+    "name": "development"
+  },
+  "0xd561e5181ac7fbfa14ab2ae3007dfc8936b122537e87344fafe0b045094d589a": {
+    "contracts": {
+      "0xf6e51c9cff96531376cb61f020855fc9a66aba1db6f8ae829e0659f3a84a3f18": {
+        "name": "SimpleStorage",
+        "address": "0xf97b565f432f439585a5a5239009ff48de3eba1f"
+      }
+    },
+    "name": "development"
+  },
+  "0x0be4afd27246a68aa59451a1a04d2fb065e57d726df94c733b455450cc3482ce": {
+    "contracts": {
+      "0xf6e51c9cff96531376cb61f020855fc9a66aba1db6f8ae829e0659f3a84a3f18": {
+        "name": "SimpleStorage",
+        "address": "0x22179041b5ba9d6a13d7898af2536b50e4aafdcc"
+      }
+    },
+    "name": "development"
+  },
+  "0xb01d0f0e4e2929606987be03eafe5c370773345ec1e4535d6709f182e097a6cc": {
+    "contracts": {
+      "0xf6e51c9cff96531376cb61f020855fc9a66aba1db6f8ae829e0659f3a84a3f18": {
+        "name": "SimpleStorage",
+        "address": "0x2033a89b2390c30fa03d130973eecfe97335c99a"
+      }
+    },
+    "name": "development"
+  }
+}

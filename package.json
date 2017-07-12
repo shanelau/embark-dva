@@ -1,0 +1,21 @@
+{
+  "name": "embark-getstart",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "embark test"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "embark": "^2.5.1",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "embark-babel": "^1.0.0",
+    "jquery": "^3.2.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
